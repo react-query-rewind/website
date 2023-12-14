@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import FeaturesImage from '@/public/images/features.svg'
 
 export default function Features() {
@@ -36,7 +37,7 @@ export default function Features() {
                 </svg>
               </div>
               <h4 className="h4 text-gray-200 text-center mb-2">Step 1</h4>
-              <p className="text-lg text-gray-400 text-center">Download our npm package</p>
+              <p className="text-lg text-gray-400 text-center">Install our <Link href="https://www.npmjs.com/package/react-query-rewind">npm package</Link></p>
             </div>
             {/* 2nd item */}
             <div className="flex flex-col items-center" data-aos="zoom-out" data-aos-delay="200">

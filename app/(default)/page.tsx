@@ -11,6 +11,7 @@ import Pricing from '@/components/pricing'
 import Testimonials from '@/components/testimonials'
 import Resources from '@/components/resources'
 import Cta from '@/components/cta'
+import GettingStarted from '@/components/getting-started'
 
 export default function Home() {
   return (
@@ -19,9 +20,10 @@ export default function Home() {
       <PressLogos />
       <Features />
       <Features02 />
+      <GettingStarted/>
       {/* <Pricing />
       <Testimonials /> */}
-      <Resources />
+      {/* <Resources /> */}
       <Cta />
     </>
   )

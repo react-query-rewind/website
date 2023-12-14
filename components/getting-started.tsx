@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Illustration from '@/public/images/features-illustration.svg'
 // import FeaturesImage from '@/public/images/features-02.png'
 
-export default function Features02() {
+export default function GettingStarted() {
   return (
     <section className="relative">
       {/* Bg gradient */}
@@ -16,7 +16,7 @@ export default function Features02() {
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 font-uncut-sans mb-4">React Query Rewind</h2>
+            <h2 className="h2 font-uncut-sans mb-4">Getting Started</h2>
             <div className="max-w-2xl mx-auto">
               <p className="text-xl text-gray-400">React Query Rewind is a powerful DevTool for time-traveling state changes. This open-source extension is tailored to improve debugging applications built with React Query</p>
             </div>
