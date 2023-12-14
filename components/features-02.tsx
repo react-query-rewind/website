@@ -4,8 +4,7 @@ import Illustration from '@/public/images/features-illustration.svg'
 
 export default function Features02() {
   return (
-    <section className="relative" name="feature">
-      <a name="feature"></a>
+    <section id="feature" className="relative">
       {/* Bg gradient */}
       <div className="absolute top-0 left-0 right-0 bg-gradient-to-b from-gray-800 to-gray-900 opacity-60 h-[10rem] pointer-events-none -z-10" aria-hidden="true" />
       {/* Bg illustration */}

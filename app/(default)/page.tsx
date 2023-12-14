@@ -4,25 +4,26 @@ export const metadata = {
 }
 
 import Hero from '@/components/hero'
-import PressLogos from '@/components/press-logos'
+//import PressLogos from '@/components/press-logos'
 import Features from '@/components/features'
 import Features02 from '@/components/features-02'
-import Pricing from '@/components/pricing'
-import Testimonials from '@/components/testimonials'
+// import Pricing from '@/components/pricing'
+// import Testimonials from '@/components/testimonials'
 import Resources from '@/components/resources'
-import Cta from '@/components/cta'
+// import Cta from '@/components/cta'
 
 export default function Home() {
   return (
     <>
+    <div className="flex flex-col"></div>
       <Hero />
-      <PressLogos />
+      {/* <PressLogos /> */}
       <Features />
       <Features02 />
       {/* <Pricing />
       <Testimonials /> */}
       <Resources />
-      <Cta />
+      {/* <Cta /> */}
     </>
   )
 }
