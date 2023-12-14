@@ -1,18 +1,18 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import FeaturesImage from '@/public/images/features.svg'
+import timeTravel from 'public/images/timeTravel.gif'
 
-export default function Features() {
+export default function TimeTravel() {
   return (
     <section>
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6" >
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="text-center pb-12 md:pb-20">
-            <h2 className="h2 font-uncut-sans" data-aos="zoom-out">Focus on solving bigger problems</h2>
+            <h2 className="h2 font-uncut-sans" data-aos="zoom-out">Time Travel</h2>
           </div>
-          <div className="pb-16" data-aos="zoom-out">
-            <Image src={FeaturesImage} alt="Features" />
+          <div className="pb-16 flex justify-center" data-aos="zoom-out">
+            <Image src={timeTravel} alt="Features" />
           </div>
           {/* Items */}
           <div className="max-w-sm mx-auto grid gap-8 md:grid-cols-3 lg:gap-16 items-start md:max-w-none">
@@ -37,7 +37,7 @@ export default function Features() {
                 </svg>
               </div>
               <h4 className="h4 text-gray-200 text-center mb-2">Step 1</h4>
-              <p className="text-lg text-gray-400 text-center">Install our <Link href="https://www.npmjs.com/package/react-query-rewind">npm package</Link></p>
+              <p className="text-lg text-gray-400 text-center">Select the time travel icon</p>
             </div>
             {/* 2nd item */}
             <div className="flex flex-col items-center" data-aos="zoom-out" data-aos-delay="200">
@@ -60,7 +60,7 @@ export default function Features() {
                 </svg>
               </div>
               <h4 className="h4 text-gray-200 text-center mb-2">Step 2</h4>
-              <p className="text-lg text-gray-400 text-center">Download our Chrome Extension</p>
+              <p className="text-lg text-gray-400 text-center">Watch the UI update to the state at a given moment in time by updating the slider</p>
             </div>
             {/* 3rd item */}
             <div className="flex flex-col items-center" data-aos="zoom-out" data-aos-delay="400">
@@ -83,7 +83,7 @@ export default function Features() {
                 </svg>
               </div>
               <h4 className="h4 text-gray-200 text-center mb-2">Step 3</h4>
-              <p className="text-lg text-gray-400 text-center">Happy debugging!</p>
+              <p className="text-lg text-gray-400 text-center">Press the play button to your UI and state update over time</p>
             </div>
           </div>
         </div>
