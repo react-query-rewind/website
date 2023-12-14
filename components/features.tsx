@@ -35,8 +35,8 @@ export default function Features() {
                   </g>
                 </svg>
               </div>
-              <h4 className="h4 text-gray-200 text-center mb-2">Ready for the future</h4>
-              <p className="text-lg text-gray-400 text-center">A flexible foundation that evolves with complex ecosystem.</p>
+              <h4 className="h4 text-gray-200 text-center mb-2">Step 1</h4>
+              <p className="text-lg text-gray-400 text-center">Download our npm package</p>
             </div>
             {/* 2nd item */}
             <div className="flex flex-col items-center" data-aos="zoom-out" data-aos-delay="200">
@@ -58,8 +58,8 @@ export default function Features() {
                   </g>
                 </svg>
               </div>
-              <h4 className="h4 text-gray-200 text-center mb-2">Ready for the future</h4>
-              <p className="text-lg text-gray-400 text-center">A flexible foundation that evolves with complex ecosystem.</p>
+              <h4 className="h4 text-gray-200 text-center mb-2">Step 2</h4>
+              <p className="text-lg text-gray-400 text-center">Download our Chrome Extension</p>
             </div>
             {/* 3rd item */}
             <div className="flex flex-col items-center" data-aos="zoom-out" data-aos-delay="400">
@@ -81,8 +81,8 @@ export default function Features() {
                   </g>
                 </svg>
               </div>
-              <h4 className="h4 text-gray-200 text-center mb-2">Ready for the future</h4>
-              <p className="text-lg text-gray-400 text-center">A flexible foundation that evolves with complex ecosystem.</p>
+              <h4 className="h4 text-gray-200 text-center mb-2">Step 3</h4>
+              <p className="text-lg text-gray-400 text-center">Happy debugging!</p>
             </div>
           </div>
         </div>

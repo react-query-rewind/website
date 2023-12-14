@@ -1,10 +1,11 @@
 import Image from 'next/image'
 import Illustration from '@/public/images/features-illustration.svg'
-import FeaturesImage from '@/public/images/features-02.png'
+// import FeaturesImage from '@/public/images/features-02.png'
 
 export default function Features02() {
   return (
-    <section className="relative">
+    <section className="relative" name="feature">
+      <a name="feature"></a>
       {/* Bg gradient */}
       <div className="absolute top-0 left-0 right-0 bg-gradient-to-b from-gray-800 to-gray-900 opacity-60 h-[10rem] pointer-events-none -z-10" aria-hidden="true" />
       {/* Bg illustration */}
@@ -50,9 +51,9 @@ export default function Features02() {
               </div>
             </div>
             {/* Image */}
-            <div className="md:w-5/12 lg:w-1/2" data-aos="zoom-out">
+            {/* <div className="md:w-5/12 lg:w-1/2" data-aos="zoom-out">
               <Image className="mx-auto md:max-w-none" src={FeaturesImage} width={540} height={581} alt="Features" />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
