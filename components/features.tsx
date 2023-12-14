@@ -7,12 +7,12 @@ export default function Features() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
           {/* Section header */}
-          <div className="text-center pb-12 md:pb-20">
+          {/* <div className="text-center pb-12 md:pb-20">
             <h2 className="h2 font-uncut-sans" data-aos="zoom-out">Focus on solving bigger problems</h2>
           </div>
           <div className="pb-16" data-aos="zoom-out">
             <Image src={FeaturesImage} alt="Features" />
-          </div>
+          </div> */}
           {/* Items */}
           <div className="max-w-sm mx-auto grid gap-8 md:grid-cols-3 lg:gap-16 items-start md:max-w-none">
             {/* 1st item */}

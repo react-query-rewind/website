@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import LogoImage from '@/public/images/logo.png';
 
 import Illustration from '@/public/images/hero-illustration.svg'
 
@@ -14,6 +15,9 @@ export default function Hero() {
       <div className="absolute left-1/2 -translate-x-1/2 pointer-events-none -z-10" aria-hidden="true">
         <Image src={Illustration} className="max-w-none" priority alt="Hero Illustration" />
       </div>
+      {/* <div className="absolute right-40 translate-x-14 translate-y-40 pointer-events-none z-10" aria-hidden="true">
+  <Image src={LogoImage} width={400} height={500} className="max-w-none" priority alt="Hero Illustration" />
+</div> */}
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pt-32 pb-12 md:pt-40 md:pb-20">
           {/* Hero content */}
@@ -41,7 +45,7 @@ export default function Hero() {
               data-aos-delay="300"
             >
               <div>
-                <a className="btn text-white bg-gradient-to-t from-blue-600 to-blue-400 hover:to-blue-500 w-full shadow-lg group" href="#0">
+                <a className="btn text-white bg-gradient-to-t from-blue-600 to-blue-400 hover:to-blue-500 w-full shadow-lg group" href="https://chromewebstore.google.com/">
                   Download in the Chrome Webstore{' '}
                   <span className="tracking-normal text-blue-200 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
                     -&gt;
