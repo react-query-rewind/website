@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Illustration from '@/public/images/features-illustration.svg'
 // import FeaturesImage from '@/public/images/features-02.png'
 
-export default function Features02() {
+export default function Introduction() {
   return (
     <section className="relative">
       {/* Bg gradient */}
@@ -19,6 +19,11 @@ export default function Features02() {
             <h2 className="h2 font-uncut-sans mb-4">React Query Rewind</h2>
             <div className="max-w-2xl mx-auto">
               <p className="text-xl text-gray-400">React Query Rewind is a powerful DevTool for time-traveling state changes. This open-source extension is tailored to improve debugging applications built with React Query</p>
+              <br />
+              <div className="max-w-xl mx-auto md:max-w-none flex flex-col md:flex-row md:items-center md:space-x-8 lg:space-x-16 xl:space-x-18 space-y-8 space-y-reverse md:space-y-0">
+                <p className="text-xl text-gray-200 italic"><Link href={'https://tanstack.com/query/v3/docs/react/overview'}></Link>View the full React Query docs</p>
+                <p className="text-xl text-gray-200 italic"><Link href={'https://github.com/oslabs-beta/react-query-rewind/tree/main'}></Link>View the full React Query Rewind docs</p>
+              </div>
             </div>
           </div>
           {/* Section content */}
