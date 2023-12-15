@@ -11,30 +11,39 @@ export default function Header({ nav = true }: {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Site branding */}
           <div className="shrink-0 mr-4">
-          <Link href="/" aria-label="Your Site">
-  <Image src={LogoImage} alt="Your Site Logo" width={80} height={80} style={{ marginTop: '40px' }} />
-</Link>
+            <Link href="/" aria-label="Your Site">
+              <Image src={LogoImage} alt="Your Site Logo" width={80} height={80} style={{ marginTop: '40px' }} />
+            </Link>
           </div>
           {/* Desktop navigation */}
           {nav &&
             <nav className="flex grow">
               {/* Desktop sign in links */}
               <ul className="flex grow justify-end flex-wrap items-center">
-                <Link className="font-medium text-gray-400 hover:text-blue-500 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"href="#feature">Demo</Link>
                 <li>
-                <Link className="font-medium text-gray-400 hover:text-blue-500 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out" href="#team">Team</Link>
+                  <Link className="font-medium text-gray-400 hover:text-blue-500 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out" href="#feature">Demo</Link>
                 </li>
                 <li>
-                  <Link className="font-medium text-gray-400 hover:text-blue-500 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out" href="https://github.com/oslabs-beta/react-query-rewind">Github</Link>
+                  <Link className="font-medium text-gray-400 hover:text-blue-500 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out" href="#get-started">Get Started</Link>
                 </li>
                 <li>
-                  <Link className="font-medium text-gray-400 hover:text-blue-500 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out" href="https://www.npmjs.com/package/react-query-rewind">NPM</Link>
+                  <Link className="font-medium text-gray-400 hover:text-blue-500 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out" href="#team">Team</Link>
                 </li>
                 <li>
-                  <Link className="font-medium text-gray-400 hover:text-blue-500 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out" href="/signin">Medium</Link>
+                  <p>|</p>
                 </li>
                 <li>
-                  <Link className="font-medium text-gray-400 hover:text-blue-500 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out" href="https://www.linkedin.com/company/react-query-rewind/">LinkedIn</Link>
+                  <a target='_blank' className="font-medium text-gray-400 hover:text-blue-500 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out" href="https://github.com/oslabs-beta/react-query-rewind">Github</a>
+                </li>
+
+                <li>
+                  <a className="font-medium text-gray-400 hover:text-blue-500 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out" target='_blank' href="https://www.npmjs.com/package/react-query-rewind">NPM</a>
+                </li>
+                <li>
+                  <a className="font-medium text-gray-400 hover:text-blue-500 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out" target='_blank' href="https://medium.com/@teeringe/react-query-rewind-time-travel-debugging-made-simple-46aaeeafd497">Medium</a>
+                </li>
+                <li>
+                  <a className="font-medium text-gray-400 hover:text-blue-500 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out" target='_blank' href="https://www.linkedin.com/company/react-query-rewind/">LinkedIn</a>
                 </li>
               </ul>
             </nav>

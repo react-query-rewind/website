@@ -9,7 +9,7 @@ export default function TimeTravel() {
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="text-center pb-12 md:pb-20">
-            <h2 className="h2 font-uncut-sans" data-aos="zoom-out">Time Travel</h2>
+            <h2 className="h2 font-uncut-sans" data-aos="zoom-out">Update the UI to Reflect Previous State</h2>
           </div>
           <div className="pb-16 flex justify-center" data-aos="zoom-out">
             <Image src={timeTravel} alt="Features" />

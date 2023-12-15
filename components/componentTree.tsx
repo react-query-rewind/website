@@ -9,7 +9,7 @@ export default function ComponentTree() {
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="text-center pb-12 md:pb-20">
-            <h2 className="h2 font-uncut-sans" data-aos="zoom-out">Component Tree</h2>
+            <h2 className="h2 font-uncut-sans" data-aos="zoom-out">Visualize Your React Component</h2>
           </div>
           <div className="pb-16 flex justify-center" data-aos="zoom-out">
             <Image src={componentTree} alt="Features" />
