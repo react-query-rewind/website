@@ -47,8 +47,8 @@ export default function RootLayout({
     <html lang="en">
       <Head>
         <title>{metadata.title}</title>
-          <meta name="description" content={metadata.description} />
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content={metadata.description} />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <body className={`${inter.variable} ${uncutsans.variable} font-inter antialiased bg-gray-900 text-gray-100 tracking-tight`}>
         <div className="flex flex-col min-h-screen overflow-hidden">
