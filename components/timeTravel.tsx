@@ -12,7 +12,7 @@ export default function TimeTravel() {
             <h2 className="h2 font-uncut-sans" data-aos="zoom-out">Update the UI to Reflect Previous State</h2>
           </div>
           <div className="pb-16 flex justify-center" data-aos="zoom-out">
-            <Image src={timeTravel} alt="Features" />
+            <a href="https://imgur.com/fxi4cQy"><img src="https://i.imgur.com/fxi4cQy.gif" title="source: imgur.com" /></a>
           </div>
           {/* Items */}
           <div className="max-w-sm mx-auto grid gap-8 md:grid-cols-3 lg:gap-16 items-start md:max-w-none">

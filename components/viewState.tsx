@@ -12,7 +12,7 @@ export default function ViewState() {
             <h2 className="h2 font-uncut-sans" data-aos="zoom-out">View State Changes over Time</h2>
           </div>
           <div className="pb-16 flex justify-center" data-aos="zoom-out">
-            <Image src={queryStates} alt="Features" />
+            <a href="https://imgur.com/92gdbIf"><img src="https://i.imgur.com/92gdbIf.gif" title="source: imgur.com" /></a>
           </div>
           {/* Items */}
           <div className="max-w-sm mx-auto grid gap-8 md:grid-cols-3 lg:gap-16 items-start md:max-w-none">
