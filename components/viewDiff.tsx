@@ -9,7 +9,7 @@ export default function ViewDiff() {
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="text-center pb-12 md:pb-20">
-            <h2 className="h2 font-uncut-sans" data-aos="zoom-out">View Diff</h2>
+            <h2 className="h2 font-uncut-sans" data-aos="zoom-out">View State Differences over Time</h2>
           </div>
           <div className="pb-16 flex justify-center" data-aos="zoom-out">
             <Image src={stateDiff} alt="Features" />
@@ -59,8 +59,8 @@ export default function ViewDiff() {
                   </g>
                 </svg>
               </div>
-              <h4 className="h4 text-gray-200 text-center mb-2">Step 3</h4>
-              <p className="text-lg text-gray-400 text-center">See state differences as you update your app and use the slider and arrow buttons to navigate to a particular diff you'd like to inspect</p>
+              <h4 className="h4 text-gray-200 text-center mb-2">Step 2</h4>
+              <p className="text-lg text-gray-400 text-center">See state differences as you update your app and use the slider and arrow buttons to navigate to a particular Diff you'd like to inspect</p>
             </div>
             {/* 3rd item */}
             <div className="flex flex-col items-center" data-aos="zoom-out" data-aos-delay="400">
@@ -82,8 +82,8 @@ export default function ViewDiff() {
                   </g>
                 </svg>
               </div>
-              <h4 className="h4 text-gray-200 text-center mb-2">Step 4</h4>
-              <p className="text-lg text-gray-400 text-center">Toggle Show/Unchanged Properties to customize your view</p>
+              <h4 className="h4 text-gray-200 text-center mb-2">Step 3</h4>
+              <p className="text-lg text-gray-400 text-center">Toggle Show/Hide Unchanged Properties to customize your view</p>
             </div>
           </div>
         </div>

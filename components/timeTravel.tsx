@@ -9,7 +9,7 @@ export default function TimeTravel() {
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="text-center pb-12 md:pb-20">
-            <h2 className="h2 font-uncut-sans" data-aos="zoom-out">Time Travel</h2>
+            <h2 className="h2 font-uncut-sans" data-aos="zoom-out">Update the UI to Reflect Previous State</h2>
           </div>
           <div className="pb-16 flex justify-center" data-aos="zoom-out">
             <Image src={timeTravel} alt="Features" />
@@ -60,7 +60,7 @@ export default function TimeTravel() {
                 </svg>
               </div>
               <h4 className="h4 text-gray-200 text-center mb-2">Step 2</h4>
-              <p className="text-lg text-gray-400 text-center">Watch the UI update to the state at a given moment in time by updating the slider</p>
+              <p className="text-lg text-gray-400 text-center">Adjust the slider to see the UI reflect the particular state you've selected</p>
             </div>
             {/* 3rd item */}
             <div className="flex flex-col items-center" data-aos="zoom-out" data-aos-delay="400">
@@ -83,7 +83,7 @@ export default function TimeTravel() {
                 </svg>
               </div>
               <h4 className="h4 text-gray-200 text-center mb-2">Step 3</h4>
-              <p className="text-lg text-gray-400 text-center">Press the play button to your UI and state update over time</p>
+              <p className="text-lg text-gray-400 text-center">Press the play button to see your UI and state update over time</p>
             </div>
           </div>
         </div>

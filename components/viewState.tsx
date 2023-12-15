@@ -5,11 +5,11 @@ import queryStates from 'public/images/queryStates.gif'
 export default function ViewState() {
   return (
     <section>
-      <div className="max-w-6xl mx-auto px-4 sm:px-6" >
+      <div className="max-w-6xl mx-auto px-4 sm:px-6" id='demo' >
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="text-center pb-12 md:pb-20">
-            <h2 className="h2 font-uncut-sans" data-aos="zoom-out">View State</h2>
+            <h2 className="h2 font-uncut-sans" data-aos="zoom-out">View State Changes over Time</h2>
           </div>
           <div className="pb-16 flex justify-center" data-aos="zoom-out">
             <Image src={queryStates} alt="Features" />
@@ -60,7 +60,7 @@ export default function ViewState() {
                 </svg>
               </div>
               <h4 className="h4 text-gray-200 text-center mb-2">Step 2</h4>
-              <p className="text-lg text-gray-400 text-center">View state changes as you make changes in your app</p>
+              <p className="text-lg text-gray-400 text-center">View state changes as you modify your app</p>
             </div>
             {/* 3rd item */}
             <div className="flex flex-col items-center" data-aos="zoom-out" data-aos-delay="400">

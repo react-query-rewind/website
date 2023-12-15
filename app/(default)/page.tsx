@@ -9,7 +9,7 @@ import ViewState from '@/components/viewState'
 import Introduction from '@/components/introduction'
 // import Pricing from '@/components/pricing'
 // import Testimonials from '@/components/testimonials'
-import Resources from '@/components/resources'
+import Team from '@/components/team'
 // import Cta from '@/components/cta'
 import GettingStarted from '@/components/getting-started'
 import ViewDiff from '@/components/viewDiff'
@@ -30,7 +30,7 @@ export default function Home() {
       <GettingStarted/>
       {/* <Pricing />
       <Testimonials /> */}
-      {/* <Resources /> */}
+      <Team />
       {/* <Cta /> */}
     </>
   )

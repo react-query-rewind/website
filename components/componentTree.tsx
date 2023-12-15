@@ -9,7 +9,7 @@ export default function ComponentTree() {
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="text-center pb-12 md:pb-20">
-            <h2 className="h2 font-uncut-sans" data-aos="zoom-out">Component Tree</h2>
+            <h2 className="h2 font-uncut-sans" data-aos="zoom-out">Visualize Your React Component</h2>
           </div>
           <div className="pb-16 flex justify-center" data-aos="zoom-out">
             <Image src={componentTree} alt="Features" />
@@ -60,7 +60,7 @@ export default function ComponentTree() {
                 </svg>
               </div>
               <h4 className="h4 text-gray-200 text-center mb-2">Step 2</h4>
-              <p className="text-lg text-gray-400 text-center">Toggle Start Profiling and start click in your UI</p>
+              <p className="text-lg text-gray-400 text-center">Toggle Start Profiling and click into your UI</p>
             </div>
             {/* 3rd item */}
             <div className="flex flex-col items-center" data-aos="zoom-out" data-aos-delay="400">
