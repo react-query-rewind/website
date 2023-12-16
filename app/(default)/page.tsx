@@ -1,16 +1,12 @@
 export const metadata = {
-  title: 'Home - Neon',
-  description: 'Page description',
+  title: 'Rect Query Rewind',
+  description: 'Time travel React Query state while developing',
 }
 
 import Hero from '@/components/hero'
-//import PressLogos from '@/components/press-logos'
 import ViewState from '@/components/viewState'
 import Introduction from '@/components/introduction'
-// import Pricing from '@/components/pricing'
-// import Testimonials from '@/components/testimonials'
 import Team from '@/components/team'
-// import Cta from '@/components/cta'
 import GettingStarted from '@/components/getting-started'
 import ViewDiff from '@/components/viewDiff'
 import TimeTravel from '@/components/timeTravel'
@@ -21,17 +17,13 @@ export default function Home() {
     <>
     <div className="flex flex-col"></div>
       <Hero />
-      {/* <PressLogos /> */}
       <ViewState />
       <ViewDiff/>
       <TimeTravel/>
       <ComponentTree/>
       <Introduction />
       <GettingStarted/>
-      {/* <Pricing />
-      <Testimonials /> */}
       <Team />
-      {/* <Cta /> */}
     </>
   )
 }

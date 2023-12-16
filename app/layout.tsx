@@ -35,7 +35,7 @@ const uncutsans = localFont({
 
 export const metadata = {
   title: 'React Query Rewind',
-  description: 'Tool for debugging apps built with React Query',
+  description: 'Time travel React Query state while developing',
 }
 
 export default function RootLayout({
@@ -49,6 +49,7 @@ export default function RootLayout({
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/images/logo.png" />
       </Head>
       <body className={`${inter.variable} ${uncutsans.variable} font-inter antialiased bg-gray-900 text-gray-100 tracking-tight`}>
         <div className="flex flex-col min-h-screen overflow-hidden">
