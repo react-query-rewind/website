@@ -1,8 +1,5 @@
 import Image from 'next/image'
-import Link from 'next/link'
 import Illustration from '@/public/images/features-illustration.svg'
-import logo from '@/public/images/logo.png'
-import { log } from 'console'
 
 export default function Introduction() {
   return (
