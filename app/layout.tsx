@@ -49,7 +49,7 @@ export default function RootLayout({
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/images/logo.png" />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
       </Head>
       <body className={`${inter.variable} ${uncutsans.variable} font-inter antialiased bg-gray-900 text-gray-100 tracking-tight`}>
         <div className="flex flex-col min-h-screen overflow-hidden">
