@@ -1,6 +1,4 @@
 import Image from 'next/image'
-import LogoImage from '@/public/images/logo.png';
-
 import Illustration from '@/public/images/hero-illustration.svg'
 
 export default function Hero() {
