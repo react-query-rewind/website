@@ -35,7 +35,7 @@ const uncutsans = localFont({
 
 export const metadata = {
   title: 'React Query Rewind',
-  description: 'Time travel React Query state while developing',
+  description: 'Time travel React Query state with React Query Rewind, an easy to use debugging tool designed to improve development velocity',
 }
 
 export default function RootLayout({

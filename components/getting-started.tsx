@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import Link from 'next/link'
 import ReactQueryRewindComponent from 'public/images/ReactQueryRewindComponent.png'
 import DevTool from 'public/images/DevTool.png'
 import Illustration from '@/public/images/features-illustration.svg'

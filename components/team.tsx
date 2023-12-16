@@ -21,7 +21,7 @@ export default function Team() {
 </div>
             <div className="max-w-sm mx-auto sm:max-w-none grid gap-12 sm:grid-cols-2 md:grid-cols-4 sm:gap-x-6 sm:gap-y-8 items-start">
               <div
-  className={`block relative p-6 group ${!['1', '3', '4'].includes(category) && 'hidden'}`}
+  className={`block relative p-6 group ${!['1'].includes(category) && 'hidden'}`}
   style={{ textAlign: 'center' }}
 >
   <div className="flex items-center flex-col">
@@ -56,7 +56,7 @@ export default function Team() {
   </div>
 </div>
               <div
-  className={`block relative p-6 group ${!['1', '3', '4'].includes(category) && 'hidden'}`}
+  className={`block relative p-6 group ${!['1'].includes(category) && 'hidden'}`}
   style={{ textAlign: 'center' }}
 >
 <div className="flex items-center flex-col">
@@ -91,7 +91,7 @@ export default function Team() {
   </div>
 </div>
               <div
-  className={`block relative p-6 group text-center ${!['1', '3', '4'].includes(category) && 'hidden'}`}
+  className={`block relative p-6 group text-center ${!['1'].includes(category) && 'hidden'}`}
 >
 <div className="flex items-center flex-col">
   <Image
@@ -125,7 +125,7 @@ export default function Team() {
   </div>
 </div>
               <div
-  className={`block relative p-6 group text-center ${!['1', '3', '4'].includes(category) && 'hidden'}`}
+  className={`block relative p-6 group text-center ${!['1'].includes(category) && 'hidden'}`}
 >
 <div className="flex items-center flex-col">
   <Image
