@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'Rect Query Rewind',
+  title: 'React Query Rewind',
   description: 'Time travel React Query state with React Query Rewind, an easy to use debugging tool designed to improve development velocity',
 }
 
