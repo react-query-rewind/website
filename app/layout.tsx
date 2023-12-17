@@ -49,6 +49,7 @@ export default function RootLayout({
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="google-site-verification" content="8d-FaStSvPcV0_NioqYlD0NTwGnJo1yxDK_WuHUM7OY" />
         <link rel="icon" href="/favicon.ico" sizes="any" />
       </Head>
       <body className={`${inter.variable} ${uncutsans.variable} font-inter antialiased bg-gray-900 text-gray-100 tracking-tight`}>
