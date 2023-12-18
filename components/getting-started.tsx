@@ -65,7 +65,7 @@ export default function GettingStarted() {
             <div className="md:w-7/12 lg:w-1/2 order-1 md:order-none" data-aos="zoom-out" data-aos-delay="200">
               <div className="text-center md:text-left">
                 <h3 className="h3 font-uncut-sans text-4xl mb-4">Install the Chrome Extension</h3>
-                <p className="text-xl text-gray-400 mb-6">Download the extension <a className='hover:text-blue-500' target='_blank' href={"https://chromewebstore.google.com/"}>here</a></p>
+                <p className="text-xl text-gray-400 mb-6">Download the extension <a className='hover:text-blue-500' target='_blank' href={"https://chromewebstore.google.com/detail/rqrewind/jfljppnfglpckkgkpmdpgagnffloboel"}>here</a></p>
                 <ul className="inline-flex flex-col text-lg text-gray-400 space-y-3">
                   <li className="flex items-center">
                     <svg className="w-3 h-3 fill-current text-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
