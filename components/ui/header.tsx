@@ -35,9 +35,11 @@ export default function Header({ nav = true }: {
                 <li>
                   <a target='_blank' className="font-medium text-gray-400 hover:text-blue-500 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out" href="https://github.com/oslabs-beta/react-query-rewind">Github</a>
                 </li>
-
                 <li>
                   <a className="font-medium text-gray-400 hover:text-blue-500 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out" target='_blank' href="https://www.npmjs.com/package/react-query-rewind">NPM</a>
+                </li>
+                <li>
+                  <a className="font-medium text-gray-400 hover:text-blue-500 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out" target='_blank' href="https://reactqueryrewind.com/">Extension</a>
                 </li>
                 <li>
                   <a className="font-medium text-gray-400 hover:text-blue-500 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out" target='_blank' href="https://medium.com/@teeringe/react-query-rewind-time-travel-debugging-made-simple-46aaeeafd497">Medium</a>
