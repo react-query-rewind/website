@@ -15,3 +15,6 @@
         direction: rtl;
     }
 }
+html {
+    scroll-behavior: smooth;
+}
