@@ -24,13 +24,13 @@ export default function Header({ isDesktop = true }: {
               <nav className="flex grow">
                 <ul className="flex grow justify-end flex-wrap items-center">
                   <li>
-                    <Link className="font-medium text-gray-400 hover:text-blue-500 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out" href="#demo">Demo</Link>
+                    <Link className="font-medium text-gray-400 hover:text-blue-500 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out" href="/#demo">Demo</Link>
                   </li>
                   <li>
-                    <Link className="font-medium text-gray-400 hover:text-blue-500 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out" href="#get-started">Get Started</Link>
+                    <Link className="font-medium text-gray-400 hover:text-blue-500 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out" href="/#get-started">Get Started</Link>
                   </li>
                   <li>
-                    <Link className="font-medium text-gray-400 hover:text-blue-500 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out" href="#team">Team</Link>
+                    <Link className="font-medium text-gray-400 hover:text-blue-500 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out" href="/#team">Team</Link>
                   </li>
                   <li>
                     <p>|</p>
@@ -66,13 +66,13 @@ export default function Header({ isDesktop = true }: {
       <nav className="flex grow">
               <ul className="flex grow justify-end flex-wrap items-center ">
                 <li className=''>
-                  <Link className="font-medium text-gray-400 hover:text-blue-500 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out mb-0" href="#demo">Demo</Link>
+                  <Link className="font-medium text-gray-400 hover:text-blue-500 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out mb-0" href="/#demo">Demo</Link>
                 </li>
                 <li className=''>
-                  <Link className="font-medium text-gray-400 hover:text-blue-500 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out mb-0" href="#get-started">Get Started</Link>
+                  <Link className="font-medium text-gray-400 hover:text-blue-500 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out mb-0" href="/#get-started">Get Started</Link>
                 </li>
                 <li className=''>
-                  <Link className="font-medium text-gray-400 hover:text-blue-500 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out mb-0" href="#team">Team</Link>
+                  <Link className="font-medium text-gray-400 hover:text-blue-500 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out mb-0" href="/#team">Team</Link>
                 </li>
               </ul>
             </nav>
