@@ -24,13 +24,13 @@ export default function Header({ isDesktop = true }: {
               <nav className="flex grow">
                 <ul className="flex grow justify-end flex-wrap items-center">
                   <li>
-                    <Link className="font-medium text-gray-400 hover:text-blue-500 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out" href="/#demo">Demo</Link>
+                    <a className="font-medium text-gray-400 hover:text-blue-500 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out" href="#demo">Demo</a>
                   </li>
                   <li>
-                    <Link className="font-medium text-gray-400 hover:text-blue-500 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out" href="/#get-started">Get Started</Link>
+                    <a className="font-medium text-gray-400 hover:text-blue-500 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out" href="#get-started">Get Started</a>
                   </li>
                   <li>
-                    <Link className="font-medium text-gray-400 hover:text-blue-500 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out" href="/#team">Team</Link>
+                    <a className="font-medium text-gray-400 hover:text-blue-500 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out" href="/#team">Team</a>
                   </li>
                   <li>
                     <p>|</p>
@@ -66,13 +66,13 @@ export default function Header({ isDesktop = true }: {
       <nav className="flex grow">
               <ul className="flex grow justify-end flex-wrap items-center ">
                 <li className=''>
-                  <Link className="font-medium text-gray-400 hover:text-blue-500 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out mb-0" href="/#demo">Demo</Link>
+                  <a className="font-medium text-gray-400 hover:text-blue-500 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out mb-0" href="/#demo">Demo</a>
                 </li>
                 <li className=''>
-                  <Link className="font-medium text-gray-400 hover:text-blue-500 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out mb-0" href="/#get-started">Get Started</Link>
+                  <a className="font-medium text-gray-400 hover:text-blue-500 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out mb-0" href="/#get-started">Get Started</a>
                 </li>
                 <li className=''>
-                  <Link className="font-medium text-gray-400 hover:text-blue-500 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out mb-0" href="/#team">Team</Link>
+                  <a className="font-medium text-gray-400 hover:text-blue-500 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out mb-0" href="/#team">Team</a>
                 </li>
               </ul>
             </nav>
@@ -80,7 +80,7 @@ export default function Header({ isDesktop = true }: {
           {/* Site branding */}
           <div className="shrink-0 mr-4">
             <Link href="/" aria-label="Your Site">
-              <Image src={LogoImage} alt="Your Site Logo" width={80} height={80} style={{ marginTop: '40px' }} />
+              <Image src={LogoImage} alt="React Query Rewind Logo" width={80} height={80} style={{ marginTop: '40px' }} />
             </Link>
           </div>
 
