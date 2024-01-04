@@ -44,7 +44,7 @@ export default function Hero() {
             >
               <div>
                 <a className="btn text-white bg-gradient-to-t from-blue-600 to-blue-400 hover:to-blue-500 w-full shadow-lg group" target='_blank' href="https://chromewebstore.google.com/detail/rqrewind/jfljppnfglpckkgkpmdpgagnffloboel">
-                  Download in the Chrome Webstore{' '}
+                  Download for Chrome{' '}
                   <span className="tracking-normal text-blue-200 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
                     -&gt;
                   </span>
