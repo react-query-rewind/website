@@ -22,7 +22,7 @@ export default function GettingStarted() {
             </div>
           </div>
           {/* NPM Section */}
-          <div className="max-w-xl mx-auto md:max-w-none flex flex-col md:flex-row md:items-center md:space-x-8 lg:space-x-16 xl:space-x-18 space-y-8 space-y-reverse md:space-y-0">
+          <div className="max-w-xl mx-auto md:max-w-none flex flex-col-reverse md:flex-row md:items-center md:space-x-8 lg:space-x-16 xl:space-x-18 space-y-8 space-y-reverse md:space-y-0">
             {/* Content */}
             <div className="md:w-7/12 lg:w-1/2 order-1 md:order-none" data-aos="zoom-out" data-aos-delay="200">
               <div className="text-center md:text-left">
@@ -60,7 +60,7 @@ export default function GettingStarted() {
           {/* Breaks */}
           <br />
           {/* Chrome Extension content */}
-          <div className="max-w-xl mx-auto md:max-w-none flex flex-col md:flex-row md:items-center md:space-x-8 lg:space-x-16 xl:space-x-18 space-y-8 space-y-reverse md:space-y-0">
+          <div className="max-w-xl mx-auto md:max-w-none flex flex-col-reverse md:flex-row md:items-center md:space-x-8 lg:space-x-16 xl:space-x-18 space-y-8 space-y-reverse md:space-y-0">
             {/* Content */}
             <div className="md:w-7/12 lg:w-1/2 order-1 md:order-none" data-aos="zoom-out" data-aos-delay="200">
               <div className="text-center md:text-left">
