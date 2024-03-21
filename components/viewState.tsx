@@ -1,29 +1,71 @@
-import Image from 'next/image'
-import Link from 'next/link'
-import queryStates from 'public/images/queryStates.gif'
+import Image from "next/image";
+import Link from "next/link";
+import queryStates from "public/images/queryStates.gif";
 
 export default function ViewState() {
   return (
     <section>
-      <div className="max-w-6xl mx-auto px-4 sm:px-6" id='demo' >
+      <div className="max-w-6xl mx-auto px-4 sm:px-6" id="demo">
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="text-center pb-12 md:pb-20">
-            <h2 className="h2 font-uncut-sans" data-aos="zoom-out">View State Changes over Time</h2>
+            <h2 className="h2 font-uncut-sans" data-aos="zoom-out">
+              View State Changes over Time
+            </h2>
           </div>
-          <div className="pb-16 flex justify-center" data-aos="zoom-out">
+          {/* <div className="pb-16 flex justify-center" data-aos="zoom-out">
             <a href="https://imgur.com/92gdbIf"><img src="https://i.imgur.com/92gdbIf.gif" title="source: imgur.com" /></a>
+          </div> */}
+          <div
+            className="relative w-full h-auto overflow-hidden rounded-lg"
+            data-aos="zoom-out"
+            style={{ aspectRatio: `1920/1072` }}
+          >
+            <iframe
+              src='https://player.vimeo.com/video/924729579?badge=0&amp;autoplay=1&loop=1&muted=1&background=1&quality=1080p&autopause=0&amp;player_id=0&amp;app_id=58479'
+              frameBorder="0"
+              // allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+              // allowFullScreen
+              title='State Changes Over Time'
+              style={{
+                position: "absolute",
+                top: 0,
+                left: 0,
+                width: "100%",
+                height: "90%",
+                // seems like height adjusts the size 
+                margin: "0",
+                filter: 'drop-shadow(4px 4px 8px rgba(255, 255, 255, 0.5))',
+              }}
+              className="shadow-lg"
+            ></iframe>
           </div>
           {/* Items */}
           <div className="max-w-sm mx-auto grid gap-8 md:grid-cols-3 lg:gap-16 items-start md:max-w-none">
             {/* 1st item */}
             <div className="flex flex-col items-center" data-aos="zoom-out">
               <div className="mb-4">
-                <svg width="56" height="56" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+                <svg
+                  width="56"
+                  height="56"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlnsXlink="http://www.w3.org/1999/xlink"
+                >
                   <defs>
-                    <radialGradient cx="50%" cy="89.845%" fx="50%" fy="89.845%" r="89.85%" id="icon1-b">
+                    <radialGradient
+                      cx="50%"
+                      cy="89.845%"
+                      fx="50%"
+                      fy="89.845%"
+                      r="89.85%"
+                      id="icon1-b"
+                    >
                       <stop stopColor="#3B82F6" stopOpacity=".64" offset="0%" />
-                      <stop stopColor="#F472B6" stopOpacity=".876" offset="100%" />
+                      <stop
+                        stopColor="#F472B6"
+                        stopOpacity=".876"
+                        offset="100%"
+                      />
                     </radialGradient>
                     <circle id="icon1-a" cx="28" cy="28" r="28" />
                   </defs>
@@ -37,16 +79,38 @@ export default function ViewState() {
                 </svg>
               </div>
               <h4 className="h4 text-gray-200 text-center mb-2">Step 1</h4>
-              <p className="text-lg text-gray-400 text-center">Select the queries you'd like to monitor</p>
+              <p className="text-lg text-gray-400 text-center">
+                Select the queries you'd like to monitor
+              </p>
             </div>
             {/* 2nd item */}
-            <div className="flex flex-col items-center" data-aos="zoom-out" data-aos-delay="200">
+            <div
+              className="flex flex-col items-center"
+              data-aos="zoom-out"
+              data-aos-delay="200"
+            >
               <div className="mb-4">
-                <svg width="56" height="56" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+                <svg
+                  width="56"
+                  height="56"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlnsXlink="http://www.w3.org/1999/xlink"
+                >
                   <defs>
-                    <radialGradient cx="50%" cy="89.845%" fx="50%" fy="89.845%" r="89.85%" id="icon2-b">
+                    <radialGradient
+                      cx="50%"
+                      cy="89.845%"
+                      fx="50%"
+                      fy="89.845%"
+                      r="89.85%"
+                      id="icon2-b"
+                    >
                       <stop stopColor="#3B82F6" stopOpacity=".64" offset="0%" />
-                      <stop stopColor="#F472B6" stopOpacity=".876" offset="100%" />
+                      <stop
+                        stopColor="#F472B6"
+                        stopOpacity=".876"
+                        offset="100%"
+                      />
                     </radialGradient>
                     <circle id="icon2-a" cx="28" cy="28" r="28" />
                   </defs>
@@ -60,16 +124,38 @@ export default function ViewState() {
                 </svg>
               </div>
               <h4 className="h4 text-gray-200 text-center mb-2">Step 2</h4>
-              <p className="text-lg text-gray-400 text-center">View state changes as you modify your app</p>
+              <p className="text-lg text-gray-400 text-center">
+                View state changes as you modify your app
+              </p>
             </div>
             {/* 3rd item */}
-            <div className="flex flex-col items-center" data-aos="zoom-out" data-aos-delay="400">
+            <div
+              className="flex flex-col items-center"
+              data-aos="zoom-out"
+              data-aos-delay="400"
+            >
               <div className="mb-4">
-                <svg width="56" height="56" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+                <svg
+                  width="56"
+                  height="56"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlnsXlink="http://www.w3.org/1999/xlink"
+                >
                   <defs>
-                    <radialGradient cx="50%" cy="89.845%" fx="50%" fy="89.845%" r="89.85%" id="icon3-b">
+                    <radialGradient
+                      cx="50%"
+                      cy="89.845%"
+                      fx="50%"
+                      fy="89.845%"
+                      r="89.85%"
+                      id="icon3-b"
+                    >
                       <stop stopColor="#3B82F6" stopOpacity=".64" offset="0%" />
-                      <stop stopColor="#F472B6" stopOpacity=".876" offset="100%" />
+                      <stop
+                        stopColor="#F472B6"
+                        stopOpacity=".876"
+                        offset="100%"
+                      />
                     </radialGradient>
                     <circle id="icon3-a" cx="28" cy="28" r="28" />
                   </defs>
@@ -83,11 +169,14 @@ export default function ViewState() {
                 </svg>
               </div>
               <h4 className="h4 text-gray-200 text-center mb-2">Step 3</h4>
-              <p className="text-lg text-gray-400 text-center">Use the slider and arrow buttons to navigate to a particular state snapshot you'd like to inspect</p>
+              <p className="text-lg text-gray-400 text-center">
+                Use the slider and arrow buttons to navigate to a particular
+                state snapshot you'd like to inspect
+              </p>
             </div>
           </div>
         </div>
       </div>
     </section>
-  )
+  );
 }
