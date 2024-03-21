@@ -19,7 +19,7 @@ export default function ViewState() {
           <div
             className="relative w-full h-auto overflow-hidden rounded-lg"
             data-aos="zoom-out"
-            style={{ aspectRatio: `2934/1644` }}
+            style={{ aspectRatio: `1920/1080` }}
           >
             <iframe
               src='https://player.vimeo.com/video/924729579?badge=0&amp;autoplay=1&loop=1&muted=1&background=1&quality=1080p&autopause=0&amp;player_id=0&amp;app_id=58479'
