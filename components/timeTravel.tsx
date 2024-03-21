@@ -1,6 +1,4 @@
-import Image from "next/image";
-import Link from "next/link";
-import timeTravel from "public/images/timeTravel.gif";
+import LazyLoadIframe from "./lazyLoadIframe";
 
 export default function TimeTravel() {
   return (
@@ -13,33 +11,10 @@ export default function TimeTravel() {
               Update the UI to Reflect Previous State
             </h2>
           </div>
-          {/* <div className="pb-16 flex justify-center" data-aos="zoom-out">
-            <a href="https://imgur.com/fxi4cQy"><img src="https://i.imgur.com/fxi4cQy.gif" title="source: imgur.com" /></a>
-          </div> */}
-          <div
-            className="relative w-full h-auto overflow-hidden rounded-lg"
-            data-aos="zoom-out"
-            style={{ aspectRatio: `1920/1072` }}
-          >
-            <iframe
-              src='https://player.vimeo.com/video/925631254?badge=0&amp;autoplay=1&loop=1&muted=1&background=1&quality=1080p&autopause=0&amp;player_id=0&amp;app_id=58479'
-              frameBorder="0"
-              // allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
-              // allowFullScreen
-              title='State Changes Over Time'
-              style={{
-                position: "absolute",
-                top: 0,
-                left: 0,
-                width: "100%",
-                height: "90%",
-                // seems like height adjusts the size 
-                margin: "0",
-                filter: 'drop-shadow(4px 4px 8px rgba(255, 255, 255, 0.5))',
-              }}
-              className="shadow-lg"
-            ></iframe>
-          </div>
+          <LazyLoadIframe
+            src="https://player.vimeo.com/video/925631254?badge=0&amp;autoplay=1&loop=1&muted=1&background=1&quality=1080p&autopause=0&amp;player_id=0&amp;app_id=58479"
+            title="State Changes Over Time"
+          />
           {/* Items */}
           <div className="max-w-sm mx-auto grid gap-8 md:grid-cols-3 lg:gap-16 items-start md:max-w-none">
             {/* 1st item */}
