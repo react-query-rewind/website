@@ -1,5 +1,3 @@
-import Image from "next/image";
-import Link from "next/link";
 import LazyLoadIframe from "./lazyLoadIframe";
 
 export default function ViewState() {
