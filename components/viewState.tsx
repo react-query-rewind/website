@@ -18,6 +18,7 @@ export default function ViewState() {
           </div> */}
           <div
             className="relative w-full h-auto overflow-hidden rounded-lg"
+            data-aos="zoom-out"
             style={{ aspectRatio: `2934/1644` }}
           >
             <iframe
