@@ -20,7 +20,10 @@ const LazyLoadIframe: React.FC<LazyLoadIframeProps> = ({ src, title }) => {
           observer.disconnect();
         }
       },
-      { threshold: 0.01 } // Loads when 1% of the frame is visible
+      {
+        rootMargin: "500px", // loads when scroll is within 500px of component
+        threshold: 0.01, // loads when 1% of component is visible - not sure if still needed b/c of rootMargin
+      }
     );
 
     if (iframeRef.current) {
