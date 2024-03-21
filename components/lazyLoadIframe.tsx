@@ -8,6 +8,7 @@ type LazyLoadIframeProps = {
 
 const LazyLoadIframe: React.FC<LazyLoadIframeProps> = ({ src, title }) => {
   const [isVisible, setIsVisible] = useState(false);
+  const [loadStyle, setLoadStyle] = useState({ opacity: 0, transition: 'opacity 1s ease-in-out' } as React.CSSProperties);
   const iframeRef = useRef<HTMLIFrameElement>(null);
 
   useEffect(() => {
@@ -15,10 +16,11 @@ const LazyLoadIframe: React.FC<LazyLoadIframeProps> = ({ src, title }) => {
       (entries) => {
         if (entries[0].isIntersecting) {
           setIsVisible(true);
+          setLoadStyle({ ...loadStyle, opacity: 1 });
           observer.disconnect();
         }
       },
-      { threshold: 0.1 } // Loads when 10% of the frame is visible
+      { threshold: 0.01 } // Loads when 1% of the frame is visible
     );
 
     if (iframeRef.current) {
@@ -31,10 +33,15 @@ const LazyLoadIframe: React.FC<LazyLoadIframeProps> = ({ src, title }) => {
 
   return (
     <div
-      className="relative w-full h-auto overflow-hidden rounded-lg"
+      className={`relative w-full h-auto overflow-hidden rounded-lg ${isVisible ? 'fade-in' : ''}`}
       // data-aos="zoom-out"
       ref={iframeRef}
-      style={{ aspectRatio: `1920/1072` }}
+      style={{
+        aspectRatio: `1920/1072`,
+        opacity: 0,
+        transition: 'opacity 1s ease-in-out',
+        ...loadStyle,
+      }}
     >
       { isVisible &&
         <iframe
