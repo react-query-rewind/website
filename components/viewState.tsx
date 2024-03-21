@@ -35,8 +35,9 @@ export default function ViewState() {
                 height: "90%",
                 // seems like height adjusts the size 
                 margin: "0",
+                filter: 'drop-shadow(4px 4px 8px rgba(255, 255, 255, 0.5))',
               }}
-              className="shadow-lg rounded-lg"
+              className="shadow-lg"
             ></iframe>
           </div>
           {/* Items */}

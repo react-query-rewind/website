@@ -17,7 +17,7 @@ export default function ComponentTree() {
           <div
             className="relative w-full h-auto overflow-hidden rounded-lg"
             data-aos="zoom-out"
-            style={{ aspectRatio: `1920/1080` }}
+            style={{ aspectRatio: `1920/1072` }}
           >
             <iframe
               src='https://player.vimeo.com/video/925631354?badge=0&amp;autoplay=1&loop=1&muted=1&background=1&quality=1080p&autopause=0&amp;player_id=0&amp;app_id=58479'
@@ -33,8 +33,9 @@ export default function ComponentTree() {
                 height: "90%",
                 // seems like height adjusts the size 
                 margin: "0",
+                filter: 'drop-shadow(4px 4px 8px rgba(255, 255, 255, 0.5))',
               }}
-              className="shadow-lg rounded-lg"
+              className="shadow-lg"
             ></iframe>
           </div>
           {/* Items */}
