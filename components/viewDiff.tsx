@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import stateDiff from 'public/images/stateDiff.gif'
 
 export default function ViewDiff() {
   return (

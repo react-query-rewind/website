@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import queryStates from "public/images/queryStates.gif";
 
 export default function ViewState() {
   return (

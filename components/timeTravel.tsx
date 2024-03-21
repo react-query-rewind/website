@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import timeTravel from "public/images/timeTravel.gif";
 
 export default function TimeTravel() {
   return (

@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import componentTree from 'public/images/componentTree.gif'
+import LazyLoadIframe from './lazyLoadIframe'
 
 export default function ComponentTree() {
   return (
@@ -14,7 +14,7 @@ export default function ComponentTree() {
           {/* <div className="pb-16 flex justify-center" data-aos="zoom-out">
             <a href="https://imgur.com/OZORX9p"><img src="https://i.imgur.com/OZORX9p.gif" title="source: imgur.com" /></a>
           </div> */}
-          <div
+          {/* <div
             className="relative w-full h-auto overflow-hidden rounded-lg"
             data-aos="zoom-out"
             style={{ aspectRatio: `1920/1072` }}
@@ -37,7 +37,11 @@ export default function ComponentTree() {
               }}
               className="shadow-lg"
             ></iframe>
-          </div>
+          </div> */}
+          <LazyLoadIframe
+            src='https://player.vimeo.com/video/925631354?badge=0&amp;autoplay=1&loop=1&muted=1&background=1&quality=1080p&autopause=0&amp;player_id=0&amp;app_id=58479'
+            title='State Changes Over Time'
+          />
           {/* Items */}
           <div className="max-w-sm mx-auto grid gap-8 md:grid-cols-3 lg:gap-16 items-start md:max-w-none">
             {/* 1st item */}
