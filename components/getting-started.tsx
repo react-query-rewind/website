@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import ReactQueryRewindComponent from 'public/images/ReactQueryRewindComponent.png'
-import DevTool from 'public/images/DevTool.png'
+import RQRewind_tab from 'public/images/RQRewind_tab.png'
 import Illustration from '@/public/images/features-illustration.svg'
 
 export default function GettingStarted() {
@@ -77,7 +77,7 @@ export default function GettingStarted() {
                     <svg className="w-3 h-3 fill-current text-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                       <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                     </svg>
-                    <span>Find the <span className='italic'>RQRewind</span> tab</span>
+                    <span>Find the <span className='italic'>React Query Rewind</span> tab</span>
                   </li>
                 </ul>
               </div>
@@ -85,7 +85,7 @@ export default function GettingStarted() {
 
             {/* Image */}
             <div className="md:w-5/12 lg:w-1/2" data-aos="zoom-out">
-              <Image className="mx-auto md:max-w-none" src={DevTool} width={540} height={581} alt="Features" />
+              <Image className="mx-auto md:max-w-none" src={RQRewind_tab} width={540} height={581} alt="Features" />
             </div>
           </div>
         </div>
