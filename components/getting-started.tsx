@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import ReactQueryRewindComponent from 'public/images/ReactQueryRewindComponent.png'
-import DevTool from 'public/images/DevTool.png'
+import RQRewind_tab from 'public/images/RQRewind_tab.png'
 import Illustration from '@/public/images/features-illustration.svg'
 
 export default function GettingStarted() {
@@ -85,7 +85,7 @@ export default function GettingStarted() {
 
             {/* Image */}
             <div className="md:w-5/12 lg:w-1/2" data-aos="zoom-out">
-              <Image className="mx-auto md:max-w-none" src={DevTool} width={540} height={581} alt="Features" />
+              <Image className="mx-auto md:max-w-none" src={RQRewind_tab} width={540} height={581} alt="Features" />
             </div>
           </div>
         </div>
