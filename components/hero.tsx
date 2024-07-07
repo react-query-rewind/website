@@ -37,6 +37,9 @@ export default function Hero() {
             <p className="text-xl text-gray-400 mb-10" data-aos="zoom-out" data-aos-delay="200">
             Empower your debugging with React Query Rewind - a Chrome DevTool extension designed to seamlessly time travel through state along with an intuitive visualization of your component hierarchy.
             </p>
+            <p className="text-xl text-gray-400 mb-10" data-aos="zoom-out" data-aos-delay="200">
+            Available for React, Svelte, & Vue
+            </p>
             <div
               className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center md:justify-start space-y-4 sm:space-y-0 sm:space-x-4"
               data-aos="zoom-out"
