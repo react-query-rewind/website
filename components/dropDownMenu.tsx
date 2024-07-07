@@ -51,7 +51,7 @@ const DropDownMenu: React.FC<DropdownProps> = ({ label, items }) => {
         </span>
       </button>
       {isOpen && (
-        <ul className="absolute left-0 mt-2 w-56 rounded-md shadow-lg bg-gradient-to-b from-gray-800 to-gray-900 opacity-60 round ring-1 ring-black ring-opacity-5 focus:outline-none">
+        <ul className="absolute left-0 mt-2 w-56 rounded-md shadow-lg bg-gradient-to-b from-gray-800 to-gray-900 opacity-80 round ring-1 ring-black ring-opacity-5 focus:outline-none">
           {items.map((item, index) => (
             <li key={index} className="">
               <a
