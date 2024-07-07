@@ -1,11 +1,22 @@
-import React from 'react'
+import React, { useState } from 'react'
 
-const dropDownMenu = () => {
+interface DropdownItem {
+  name: string;
+  link: string;
+}
+
+interface DropdownProps {
+  items: DropdownItem[];
+}
+
+const DropDownMenu:React.FC<DropdownProps> = (items) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleDropdown = () => {
     setIsOpen(!isOpen);
   };
+
+  console.log(items);
 
   return (
     <div className="relative inline-block text-left">
@@ -17,21 +28,23 @@ const dropDownMenu = () => {
       </button>
       {isOpen && (
         <ul className="absolute left-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
-          <li className="py-2">
-            <a
-              className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://www.npmjs.com/package/react-query-rewind"
-            >
-              react-query-rewind
-            </a>
-          </li>
-          {/* Add more dropdown items here if needed */}
+          {items.map((item, index) => (
+            <li key={index} className="py-2">
+              <a
+                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                target="_blank"
+                rel="noopener noreferrer"
+                href={item.link}
+              >
+                {item.name}
+              </a>
+            </li>
+          ))}
         </ul>
       )}
     </div>
   );
+
 }
 
-export default dropDownMenu
+export default DropDownMenu
