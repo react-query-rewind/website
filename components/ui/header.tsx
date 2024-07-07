@@ -39,11 +39,12 @@ export default function Header({ isDesktop = true }: {
                   <li>
                     <a target='_blank' className="font-medium text-gray-400 hover:text-blue-500 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out" href="https://github.com/oslabs-beta/react-query-rewind">Github</a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a className="font-medium text-gray-400 hover:text-blue-500 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out" target='_blank' href="https://www.npmjs.com/package/react-query-rewind">NPM</a>
-                  </li>
+                  </li> */}
                   <li>
                     <DropDownMenu
+                      label='NPM'
                       items={[
                         {
                           name: 'React',
@@ -112,6 +113,25 @@ export default function Header({ isDesktop = true }: {
                 <li>
                   <a className="font-medium text-gray-400 hover:text-blue-500 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out" target='_blank' href="https://www.npmjs.com/package/react-query-rewind">NPM</a>
                 </li>
+                {/* <li className='py-2'>
+                    <DropDownMenu
+                      label='NPM'
+                      items={[
+                        {
+                          name: 'React',
+                          link: 'https://www.npmjs.com/package/react-query-rewind'
+                        },
+                        {
+                          name: 'Svelte',
+                          link: 'https://www.npmjs.com/package/@react-query-rewind/svelte-query-rewind'
+                        },
+                        {
+                          name: 'Vue',
+                          link: 'https://www.npmjs.com/package/@react-query-rewind/vue-query-rewind'
+                        }
+                      ]}
+                    />
+                </li> */}
                 <li>
                   <a className="font-medium text-gray-400 hover:text-blue-500 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out" target='_blank' href="https://chromewebstore.google.com/detail/rqrewind/jfljppnfglpckkgkpmdpgagnffloboel">Extension</a>
                 </li>
